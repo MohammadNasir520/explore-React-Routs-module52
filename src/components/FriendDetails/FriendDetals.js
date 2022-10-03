@@ -8,7 +8,7 @@ const FriendDetals = () => {
         <div>
             <h4>Details about: { friend.name}</h4>
             <p>call him/her: {friend.phone}</p>
-            <h2> Everything you need to know about friend</h2>
+            <h2> Everything you need to know about this person</h2>
         </div>
     );
 };

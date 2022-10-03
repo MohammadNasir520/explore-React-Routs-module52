@@ -5,7 +5,7 @@ import PostIndividual from '../PostIndividual/PostIndividual';
 
 const Posts = () => {
     const posts=useLoaderData();
-    console.log(posts)
+    // console.log(posts)
     return (
         <div>
             <h2>a lot of posts here</h2>

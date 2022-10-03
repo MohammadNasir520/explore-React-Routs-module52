@@ -8,6 +8,7 @@ import Main from './Layout/Main';
 import Friends from './components/Friends/Friends';
 import FriendDetals from './components/FriendDetails/FriendDetals';
 import Posts from './components/posts/Posts';
+import PostDetails from './components/PostDetails/PostDetails';
 
 
 
@@ -42,6 +43,13 @@ function App() {
                     return fetch('https://jsonplaceholder.typicode.com/posts')
                   },
                   element: <Posts></Posts>
+                },
+                {
+                  path:`/post/:postId`,
+                  loader: async ({params})=>{
+                    return fetch(`https://jsonplaceholder.typicode.com/posts/${params.postId}`)
+                  },
+                  element:<PostDetails></PostDetails>
                 }
               
     ]

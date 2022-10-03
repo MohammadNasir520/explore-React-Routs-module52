@@ -8,3 +8,10 @@
     background-color: slateblue;
     color: white;
 }
+.active{
+    background-color: slateblue;
+    color: white;
+    
+    font-weight: 500;
+    border-radius: 5px;
+}
