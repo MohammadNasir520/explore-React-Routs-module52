@@ -1,0 +1,10 @@
+.header a{
+    text-decoration: none;
+   
+    margin-left: 15px;
+    padding: 5px 10px;
+}
+.header a:hover{
+    background-color: slateblue;
+    color: white;
+}
